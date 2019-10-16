@@ -9,32 +9,32 @@ public class Conta {
     public Conta() {
         
     }
-    public Conta(String nom,String num,Double t,Double s) {
-        nomCliente=nom;
-        numConta=num;
-        tipoInterese=t;
-        saldo=s;
+    public Conta(String nomCliente,String numConta,Double tipoInterese,Double saldo) {
+        this.nomCliente=nomCliente;
+        this.numConta=numConta;
+        this.tipoInterese=tipoInterese;
+        this.saldo=saldo;
     }
-    public void setNom(String nom) {
-        nomCliente=nom;
+    public void setNom(String nomCliente) {
+        this.nomCliente=nomCliente;
     }
     public String getNom() {
         return nomCliente;
     }
-    public void setNum(String num) {
-        numConta=num;
+    public void setNum(String numConta) {
+        this.numConta=numConta;
     }
     public String getNum() {
         return numConta;
     }
-    public void setTipo(Double t) {
-        tipoInterese=t;
+    public void setTipo(Double tipoInterese) {
+        this.tipoInterese=tipoInterese;
     }
     public Double getTipo() {
         return tipoInterese;
     }
-    public void setSaldo(Double s) {
-        saldo=s;
+    public void setSaldo(Double saldo) {
+        this.saldo=saldo;
     }
     public Double getSaldo() {
         return saldo;
